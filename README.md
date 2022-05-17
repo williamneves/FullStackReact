@@ -1,4 +1,4 @@
-# HelloWorld
+# FullStackReact
  Basic Template
 
   This is a basic template for a new project.
