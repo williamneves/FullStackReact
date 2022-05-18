@@ -21,7 +21,9 @@ export default () => {
 	//onChange to update firstName and lastName
 	return (
 		<MDBCol size='6' sm='3' className='col-example mx-auto'>
-			<form onSubmit={onSubmitHandler}>
+			
+            
+            <form onSubmit={onSubmitHandler}>
                 <h3 className='text-start'>Add a new person</h3>
                 <hr />
                 <MDBInput

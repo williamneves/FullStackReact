@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+// import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import './scss/index.scss';
 import '@fontsource/roboto';
 import '@fontsource/ubuntu';
 import '@fortawesome/fontawesome-pro/css/all.css';
