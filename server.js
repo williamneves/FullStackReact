@@ -4,7 +4,8 @@
 
 // Require modules
 const express = require('express');
-const cors = require('cors');
+const cors = require( 'cors' );
+// server port
 const app = express();
 
 // require mongoose config
@@ -23,7 +24,8 @@ app.use(express.urlencoded({ extended: true }));
 const port = 8000;
 
 // require routes
-require('./server/routes/person.routes')(app); // This is new
+// Add routes here
+require( './server/routes/person.routes' )( app );
 
 // app listen on port
 app.listen(port, () => {
